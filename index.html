@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+  >
 
   <title>😉 جاهزه</title>
 
@@ -16,26 +21,36 @@
 
   <main class="page">
 
-    <!-- القلب الكبير -->
-    <section class="main-heart">
+    <section class="login-card">
 
-      <!-- صورة البروفايل -->
-      <div class="profile-wrap">
-        <img src="profile.jpg" class="profile" alt="profile">
-      </div>
+      <!-- القلب الكبير -->
+      <div class="big-heart"></div>
 
-      <div class="heart-content">
+      <!-- محتوى القلب -->
+      <div class="content">
+
+        <!-- صورة البروفايل -->
+        <div class="profile-container">
+          <img
+            src="profile.jpg"
+            alt="profile"
+            class="profile"
+          >
+        </div>
 
         <h1>😉 جاهزه</h1>
 
-        <p>😍 كل الي بينا هنا</p>
+        <p class="subtitle">
+          😍 كل الي بينا هنا
+        </p>
 
-        <label for="password">Password</label>
+        <label for="password">
+          Password
+        </label>
 
         <input
           id="password"
           type="password"
-          placeholder=""
           autocomplete="off"
         >
 
@@ -44,10 +59,12 @@
         </button>
 
       </div>
+
     </section>
 
   </main>
 
   <script src="script.js"></script>
+
 </body>
 </html>
